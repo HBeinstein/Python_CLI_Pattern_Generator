@@ -4,16 +4,15 @@ from PIL import Image
 from io import BytesIO
 
 response_img = requests.get("https://picsum.photos/100/20")
-
 img = Image.open(BytesIO(response_img.content))
+# print(response_img.url)
 
 width, height = img.size
-
 img = img.convert("L")
-
 pixels = img.getdata()
 
-symbols = ["B","S","@","&","$","%","*","!",":","^","."]
+# symbols = ["B","S","@","&","$","%","*","!",":","^","."] #dark to light
+symbols = [".","^",":","!","*","%","$","&","@","S","B"] #light to dark
 display_pixels = [symbols[pixel // 25] for pixel in pixels]
 display_pixels = ''.join(display_pixels)
 
