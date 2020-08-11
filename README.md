@@ -6,7 +6,7 @@
 
 ## Description
 
-This is a Python CLI app that uses Pillow and the Lorem Picsum API (https://picsum.photos/) to fetch a random image, assign it a character based on its pixel value, and to print the result to the console. 
+This is a Python CLI app that uses Pillow and the Lorem Picsum API (https://picsum.photos/) to fetch a random image, assign it a character based on its pixel value, and to print the resulting ASCII art to the console. 
 
 ## Setup/Installation Requirements
 
