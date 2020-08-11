@@ -3,14 +3,11 @@ import sys
 from PIL import Image 
 from io import BytesIO
 
-response_img = requests.get("https://picsum.photos/120/20")
-print(response_img.url)
+response_img = requests.get("https://picsum.photos/100/20")
 
 img = Image.open(BytesIO(response_img.content))
-print(img)
 
 width, height = img.size
-print(width, height)
 
 img = img.convert("L")
 
