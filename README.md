@@ -8,6 +8,11 @@
 
 This is a Python CLI app that uses Pillow and the Lorem Picsum API (https://picsum.photos/) to fetch a random image, assign it a character based on its pixel value, and to print the resulting ASCII art to the console. 
 
+<h1 align="center">
+  <img width="900" height="450" src="./IMG/img1.png">
+
+</h1>
+
 ## Setup/Installation Requirements
 
 * _Clone or download this repository located at https://github.com/HBeinstein/Factory.Solution._
@@ -22,7 +27,7 @@ This is a Python CLI app that uses Pillow and the Lorem Picsum API (https://pics
 _No known bugs_
 
 _Hoping to add light/dark mode and color functionality later on._
-_Working on better contrast within the images and will try to add this soon!!_
+_Working on better contrast within the images and will try to add this soon_
 
 ## Support and contact details
 
