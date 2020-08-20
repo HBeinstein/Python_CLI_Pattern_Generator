@@ -15,7 +15,7 @@ This is a Python CLI app that uses Pillow and the Lorem Picsum API (https://pics
 
 ## Setup/Installation Requirements
 
-* _Clone or download this repository located at https://github.com/HBeinstein/Factory.Solution._
+* _Clone or download this repository located at https://github.com/HBeinstein/Python_CLI_Pattern_Generator._
 * _Run $python --version in your CLI to check if you have Python installed. If you don't, you can download it here: https://www.python.org/downloads/._
 * _Open project in your code editor of choice._
 * _Create a virtual environment in the project root directory by running $python3 -m venv venv. Once created, activate your virtual environment by running $source venv/bin/activate. (To deactivate a virtual environment, run $deactivate.)_
